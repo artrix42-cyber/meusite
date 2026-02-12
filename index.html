@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber Awakening</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    button {
+      background: black;
+      color: #00ff00;
+      border: 1px solid #00ff00;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #00ff00;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FSOCIETY</h1>
+  <p id="texto">O sistema está quebrado. Acorde.</p>
+  <button onclick="mudarTexto()">Entrar</button>
+
+  <script>
+    function mudarTexto() {
+      document.getElementById("texto").innerHTML =
+      "Bem-vindo ao despertar digital.";
+    }
+  </script>
+
+</body>
+</html>
